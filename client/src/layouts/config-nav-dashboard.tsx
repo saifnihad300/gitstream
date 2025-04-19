@@ -29,6 +29,16 @@ export const navData = [
     ),
   },
   {
+    title: 'Feed',
+    path: '/feed',
+    icon: icon('ic-cart'),
+    info: (
+      <Label color="error" variant="inverted">
+        +3
+      </Label>
+    ),
+  },
+  {
     title: 'Blog',
     path: '/blog',
     icon: icon('ic-blog'),

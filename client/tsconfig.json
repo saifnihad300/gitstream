@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "types": ["@storybook/react-vite"],
     "baseUrl": ".",
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -22,7 +21,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src", ".storybook"],
+  "include": ["src"],
   "exclude": ["node_modules"],
   "references": [
     {

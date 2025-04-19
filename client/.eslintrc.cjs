@@ -5,7 +5,7 @@ module.exports = {
   root: true,
   env: { browser: true, es2020: true },
   plugins: ['perfectionist', 'unused-imports', '@typescript-eslint', 'prettier'],
-  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks', 'prettier'],
+  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks', 'prettier', 'plugin:storybook/recommended'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 'latest',
@@ -35,6 +35,8 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-restricted-exports': 0,
     'no-promise-executor-return': 0,
+    'react/no-unescaped-entities': 'off',
+    "import/no-extraneous-dependencies": "off",
     'import/prefer-default-export': 0,
     'prefer-destructuring': [1, { object: true, array: false }],
     // typescript
